@@ -1,0 +1,37 @@
+node_modules/
+node_modules_backup_*/
+dist/
+.DS_Store
+.env
+.env.notarize
+.env.local
+.env.*.local
+!.env.notarize.example
+*.log
+
+# Large model files (use Git LFS or download separately)
+public/rvc-models/*.pth
+rvc/models/*.pt
+public/vosk-model-small-ja-0.22.tar.gz
+public/vosk-model-small-ja-0.22/
+
+# Embedded git repositories
+rvc/rvc-webui/
+temp-bvh2vrma/
+vits-umamusume/
+vits-umamusume-clean/
+
+# Project archive: local credentials and runtime data
+.env
+.env.*
+!.env.example
+!.env.sample
+!.env.template
+*.pem
+*.key
+*.p12
+*.pfx
+*.db
+*.sqlite*
+node_modules/
+__pycache__/
